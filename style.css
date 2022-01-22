@@ -1,7 +1,27 @@
 img {
     height: 40px;
 }
+
+.description img {
+    height: 300px;
+}
+#first{
+    display: flex;
+}
+.last img{
+    height: 500px;
+     ;
+}
+.last {
+    display: flex;
+    background-color: yellow;
+    align-items: left;
+    
+}
+.last p {
+    font-weight: bold;
+    font-size: 200;
+}
 * {
-    border:;
-    ;
+    border: thick solid;
 }
