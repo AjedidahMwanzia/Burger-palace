@@ -53,8 +53,9 @@
     .last {
     display: flex;
     height: 600px;
-    flex-wrap: wrap;
-    align-content: flex-start;
+    text-align: center;
+    background-color: #F6B400;
+   
     }
     .cards {
     height: 500px;
@@ -105,7 +106,10 @@
         position: relative;
         top: 0;
         left: 0;
+        background-color: #fafafa;
         
+    
+
        
       }
       #tasy{
@@ -128,6 +132,19 @@
         height: 20px;
     }
 .location{
-    display: inline-block;
-   
+    display: inline-flex;
 }
+#image1{
+    display: flex;
+}
+.container {
+    padding: 16px;
+    align-items: right;
+    p
+  }
+  .list{
+      text-align: center;
+      padding: 50px;
+  }
+  
+  
