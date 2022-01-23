@@ -17,39 +17,25 @@
     font-family:'poppins';
   }
   
+.cards{
+  
+  display: grid;
+  grid-template-columns: repeat(autofill);
+  margin: 30px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  
+}
+.card {
+  box-shadow: 0 0 3px;
+  width: 300px;
 
-  .column {
-    float: left;
-    width: 25%;
-    padding: 40px;
-    flex-wrap: wrap;
-  }
-  
-  .row {margin: 0 -5px;}
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 );
-    padding: 16px;
-    text-align: center;
-   
-  }
-  
-  
-  /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-    
+}
+.card-content{line-height: 1.5;
+  font-size: 0.9em;
+  padding: 15px;
+  background-color: #fafafa;
 }
 
 #logo img{
