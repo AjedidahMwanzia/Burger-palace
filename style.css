@@ -1,228 +1,133 @@
-
 .gradient{
     background: linear-gradient( 101deg , white 50% , #F6B400 50.1%);
-
-}
-.row img{
-    height: 40px;
-}
-
-.row{
-    box-sizing: border-box;
-    background-color: ;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+    align-content: flex-end;
+    margin-left: 70px;
+    }
+    #logo img{
     
-  }
-  
-  body {
-    font-family:'poppins';
-  }
-  
-.cards{
-  
-  display: grid;
-  grid-template-columns: repeat(autofill);
-  margin: 30px;
-  margin: 0 auto;
-  display: flex;
-  gap: 50px;
-  
-}
-.card {
-  box-shadow: 0 0 3px;
-  width: 300px;
-
-}
-.card-content{line-height: 1.5;
-  font-size: 0.9em;
-  padding: 15px;
-  background-color: #fafafa;
-}
-
-#logo img{
-
-    height: 50px;  
-   
-}
-#part1 img{
+    height: 50px; 
+    }
+    #part1 img{
     height: 30px; 
-  
-}
-#part1 {
+    }
+    #part1 {
     float: right;
     font-weight: bold;
     word-spacing: 55px;
     text-align: right;
     color: black;
     font-size: 20px;
-}
-#logo {
+    }
+    #logo {
     display: flex;
     text-align: left;
     float: left;
-}
-.flex-container {
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;;
-   
+    }
+    .card img{
+    height: 40px;
+    }
+    }
+    .menu{
+        text-align: center;
 
-}
-#rain{
+    }
+    #rain{
     font-weight: bold;
     font-family: 'poppins';
     font-size: 30px;
     float: left;
-}
-.description img {
-height: 400px;
-float: right;
-
-}
-.last {
-        display: flex;
-        height: 600px;
-        flex-wrap: wrap;
-        align-content: flex-start;
-}
-
-
-.description p{
-    
-    float: none;
-  
-}
-#quality{
-    border-style:solid;
-    border-width: 1px;
-    margin-right: 20px;
-    border-radius: 15px;
-    padding: 10px;
-    overflow: auto;
-   
-}
-#delivery{
-    border-style:solid;
-    border-width: 1px;
-    margin-right: 20px;
-    border-radius: 15px;
-    padding: 10px;
-    overflow: auto;
-}
-#delicious{
-    border-style:solid;
-    border-width: 1px;
-    margin-right: 20px;
-    border-radius: 15px;
-    padding: 10px;
-    overflow: visible;
-    height: 450px;
-    width: 400px;
-}
-.quality img{
-    height: 100px;
-    float: center;
-
-}
-.quality{
-    display: flex;
-    background-color: #F0F8FF;;
-    
-}
-.menu{
-    text-align: center;
-}
-#part3 img{
-    height: 100px;
-    display: flex;
-}
-/* {
-    border: thick solid;
-#part3 img{
-    height: 100px;
-    display: flex;
-}
-/* Three columns side by side */
-.column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-
-  }
-
-  /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
     }
-  }
-
-  /* Add some shadows to create a card effect */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  /* Some left and right padding inside the container */
-  .container {
-    padding: 0 16px;
-  }
-
-  /* Clear floats */
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-
-
-
-  .flex-container > div {
-    width: 60px;
-    margin: 10px;
-    text-align: center;
-    line-height: 55px;
-    font-size: 30px;
-    overflow: auto;
-    height: 30%;
-  }
-  .card img{
-      align-content: center;
-  }
-  .copyright{
-      display: flex;
-      height: 2px;
-      padding: 50px;
-  }
-  .copyright img{
-      height: 2px;
-  } 
-
-
-  .card img{
-      align-content: center;
-  }
-  .copyright{
-      display: flex;
-      height: 2px;
-      padding: 50px;
-  }
-  .copyright img{
-      height: 2px;
-  }
-  #image1 {
-    height: 500px;
-     ;
-}
-
+    .description img {
+    height: 400px;
+    float: right;
+    left: 800px;
+    position: absolute;
+    top: 150px;
     
+    }
+    .last {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    }
+    .cards {
+    height: 500px;
+    width: 50%;
+    background-clip: content-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+    .card {
+    box-shadow: 0 0 3px;
+    width: 850%;
+    height: 400px;
+    margin-top: 10%;
+    border-radius: 15px;
    
+    }
+    
+    .card-content{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background-color: #fafafa;
+    }
+    .quality{
+        width: 100%;
+        height: 500px;
+        background-color: white;
+        background-clip: content-box;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
 
-}
-.last p {
-    font-weight: bold;
-    font-size: 200;
+    }
+    .burger{
+        
+    height: 500px;
+    width: 50%;
+    background-clip: content-box;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+    .images {
+        position: relative;
+        top: 0;
+        left: 0;
+        
+       
+      }
+      #tasy{
+        position: relative;
+        top: 0;
+        left: 0;
+       
+      }
+      #king{
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+        
+      }
+      
+   
+    .icons {
+        display: flex;
+        height: 20px;
+    }
+.location{
+    display: inline-block;
+   
 }
