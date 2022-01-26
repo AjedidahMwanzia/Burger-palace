@@ -147,12 +147,8 @@ float: right;
 .menu{
     text-align: center;
 }
-#part3 img{
-    height: 100px;
-    display: flex;
-}
-/* {
-    border: thick solid;
+
+
 #part3 img{
     height: 100px;
     display: flex;
