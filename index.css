@@ -34,9 +34,9 @@
   
   .card {
     box-shadow: 0 4px 8px 0 );
-    padding: 16px;
-    text-align: center;
-   
+    padding:16px;
+    text-align:center;
+
   }
   
   
@@ -140,8 +140,9 @@ float: right;
 }
 .quality{
     display: flex;
-    background-color: #F0F8FF;;
-    
+    background-color: #F0F8FF;
+    flex-direction: row;
+    align-items: center;
 }
 .menu{
     text-align: center;
@@ -205,37 +206,74 @@ float: right;
   .card img{
       align-content: center;
   }
-  .copyright{
-      display: flex;
-      height: 2px;
-      padding: 50px;
-  }
-  .copyright img{
-      height: 2px;
-  } 
-
-
+  
   .card img{
       align-content: center;
   }
   .copyright{
       display: flex;
+      flex-direction: row;
       height: 2px;
       padding: 50px;
   }
   .copyright img{
       height: 2px;
   }
-  #image1 {
-    height: 500px;
-     ;
+
+#image1{
+    display: flex;
+    flex-direction: row;
+    width: 10px;
+    height: 10px;
+  
 }
 
-    
+    #image2{
+      height: 20px;
+
+    }
    
-
-}
 .last p {
     font-weight: bold;
     font-size: 200;
+}
+.images
+{
+  height: 20px;
+  display: flex;
+  flex-direction: right;
+
+}
+.part4{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  font-size: 70px;
+  background-color: aliceblue;
+ 
+}
+.mobile{
+  display: flex;
+  flex-direction: row;
+ 
+  
+}
+.mobile p{
+  font-size: 200px;
+  font-weight: bold;
+}
+.image2{
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  
+}
+.location{
+  display: flex;
+  flex-direction: row;
+
+}
+.icons{
+  display: flex;
+
 }
