@@ -132,10 +132,12 @@ float: right;
     overflow: visible;
     height: 450px;
     width: 400px;
+    
 }
 .quality img{
     height: 100px;
     float: center;
+    align-items: center; 
 
 }
 .quality{
@@ -240,12 +242,7 @@ float: right;
   flex-direction: right;
 
 }
-.part4{
-  display: flex;
-  flex-direction: row;
-  height: 50px;
-  font-size: 70px;
-  background-color: aliceblue;
+
  
 }
 .mobile{
