@@ -31,7 +31,7 @@
     .card img{
     height: 40px;
     }
-    }
+    
     .menu{
         text-align: center;
 
@@ -55,6 +55,9 @@
     height: 600px;
     text-align: center;
     background-color: #F6B400;
+    flex-direction: row;
+   
+    
    
     }
     .cards {
@@ -62,13 +65,15 @@
     width: 50%;
     background-clip: content-box;
     display: flex;
+    flex-direction: row;
     text-align: center;
     justify-content: center;
     align-items: center;
+    
     }
     .card {
-    box-shadow: 0 0 3px;
-    width: 850%;
+    box-shadow: 0 5px 3px;
+    width: 950%;
     height: 400px;
     margin-top: 10%;
     border-radius: 15px;
@@ -107,22 +112,23 @@
         top: 0;
         left: 0;
         background-color: #fafafa;
-        
-    
+         height: 20px;
+  display: flex;
+  flex-direction: right;
 
-       
-      }
+         }
       #tasy{
         position: relative;
         top: 0;
         left: 0;
+        height: 20px;
        
       }
       #king{
         position: absolute;
         top: 0;
         left: 0;
-        
+        height: 20px;
         
       }
       
@@ -132,23 +138,74 @@
         height: 20px;
     }
 .location{
-    display: inline-flex;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-right: 20px;
+   
 }
+.part{
+  background-color: aliceblue;
+  height:270px;
+  align-content: center;
+
+}
+
+
 #image1{
     display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-right: 20px;
+    height: 200px;
+    
 }
 .container {
     padding: 16px;
     align-items: right;
-    p
+    
   }
+
   .list{
       text-align: center;
-      padding: 50px;
+      padding:50px;
   }
+ 
   
-<<<<<<< HEAD
-  
-=======
-  
->>>>>>> d88ade4ade69972710235d5baffa9ab436589e0d
+  .part4{
+    display: flex;
+    flex-direction: row;
+    height: 5px;
+    font-size: 10px;
+    background-color: aliceblue;
+    justify-content: space-between;
+  }
+  #title{
+    background-color: aliceblue;
+    height: 470px;
+   align-content: center;
+    font-size: 30px;
+  }
+  .mobile p{
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-left: 60px;
+    padding-right: 40px;
+    
+  }
+  #image2{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-left: 80px;
+  }
+  #title :last-child{
+    font-size: 50px;
+    text-align: left;
+  }
+ .copyright{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around
+ }
