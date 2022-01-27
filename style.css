@@ -24,9 +24,8 @@
     font-size: 20px;
     }
     #logo {
-    display: flex;
-    text-align: left;
-    float: left;
+    display: inline-block;
+    
     }
     .card img{
     height: 40px;
@@ -89,13 +88,41 @@
     .quality{
         width: 100%;
         height: 500px;
-        background-color: white;
+        background-color: aliceblue;
         background-clip: content-box;
         display: flex;
         text-align: center;
-        justify-content: center;
+        justify-content: space-around;
         justify-items: center;
+       
 
+    }
+    .food{
+      border: 1px solid;
+      border-radius: 12px;
+      overflow: auto;
+      width: 300px;
+      padding: 30px;
+      height: 300px;
+      margin-top: 60px;
+    }
+    .delivery{
+      border: 1px solid;
+      border-radius: 12px;
+      overflow: auto;
+      width: 300px;
+      padding: 30px;
+      height: 400px;
+      margin-top: 20px;
+    }
+    .shake{
+      border: 1px solid;
+      border-radius: 12px;
+      overflow: auto;
+      width: 300px;
+      padding: 30px;
+      height: 300px;
+      margin-top: 60px;
     }
     .burger{
 
@@ -105,7 +132,8 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    align-items: center;
+    align-items: center; border: 1px solid;
+
     }
     .images {
         position: relative;
@@ -157,7 +185,7 @@
    flex-direction: row;
     padding: 40px;
     margin-right: 20px;
-    height: 600px;
+    height: 500px;
 
 }
 .container {
