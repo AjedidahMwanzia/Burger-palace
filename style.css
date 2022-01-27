@@ -12,6 +12,7 @@
       align-items: center;
       display: flex;
       justify-content: space-between;
+    
     }
     #logo img{
 
@@ -161,30 +162,25 @@
 
     }
     .images {
-        position: relative;
-        top: 0;
-        left: 0;
-        background-color: #fafafa;
-         height: 20px;
+        
   display: flex;
-  flex-direction: right;
+  position: relative;
+  }
+  .tasty{
+    width: 30vw;
+    height: auto;
+    position: relative;
 
-         }
-      #tasy{
-        position: relative;
-        top: 0;
-        left: 0;
-        height: 20px;
+  }
+  .king{
+    width: 30vw;
+    height: auto;
+    position: absolute;
 
-      }
-      #king{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 20px;
+  }
+  /* .title:nth-child(1){
 
-      }
-
+  } */
 
     .icons {
         display: flex;
@@ -228,7 +224,7 @@
   .part4{
     display: flex;
     flex-direction: row;
-    height: 5px;
+    height: auto;
     font-size: 10px;
     background-color: aliceblue;
     justify-content: space-between;
