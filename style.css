@@ -9,11 +9,11 @@
     margin-left: 70px;
     }
     #logo img{
-    
-    height: 50px; 
+
+    height: 50px;
     }
     #part1 img{
-    height: 30px; 
+    height: 30px;
     }
     #part1 {
     float: right;
@@ -31,7 +31,7 @@
     .card img{
     height: 40px;
     }
-    
+
     .menu{
         text-align: center;
 
@@ -48,7 +48,7 @@
     left: 800px;
     position: absolute;
     top: 150px;
-    
+
     }
     .last {
     display: flex;
@@ -56,9 +56,9 @@
     text-align: center;
     background-color: #F6B400;
     flex-direction: row;
-   
-    
-   
+
+
+
     }
     .cards {
     height: 500px;
@@ -69,7 +69,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    
+
     }
     .card {
     box-shadow: 0 5px 3px;
@@ -77,9 +77,9 @@
     height: 400px;
     margin-top: 10%;
     border-radius: 15px;
-   
+
     }
-    
+
     .card-content{
     line-height: 1.5;
     font-size: 0.9em;
@@ -98,7 +98,7 @@
 
     }
     .burger{
-        
+
     height: 500px;
     width: 50%;
     background-clip: content-box;
@@ -122,17 +122,17 @@
         top: 0;
         left: 0;
         height: 20px;
-       
+
       }
       #king{
         position: absolute;
         top: 0;
         left: 0;
         height: 20px;
-        
+
       }
-      
-   
+
+
     .icons {
         display: flex;
         height: 20px;
@@ -142,7 +142,7 @@
    flex-direction: row;
    justify-content: space-around;
    margin-right: 20px;
-   
+
 }
 .part{
   background-color: aliceblue;
@@ -154,24 +154,24 @@
 
 #image1{
     display: flex;
-    justify-content: space-between;
+   flex-direction: row;
     padding: 40px;
     margin-right: 20px;
-    height: 200px;
-    
+    height: 600px;
+
 }
 .container {
     padding: 16px;
     align-items: right;
-    
+
   }
 
   .list{
       text-align: center;
       padding:50px;
   }
- 
-  
+
+
   .part4{
     display: flex;
     flex-direction: row;
@@ -183,7 +183,7 @@
   #title{
     background-color: aliceblue;
     height: 470px;
-   align-content: center;
+  
     font-size: 30px;
   }
   .mobile p{
@@ -192,7 +192,7 @@
     padding-top: 50px;
     margin-left: 60px;
     padding-right: 40px;
-    
+
   }
   #image2{
     display: flex;
